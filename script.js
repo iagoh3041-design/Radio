@@ -1,4 +1,4 @@
-const baseURL = "https://SEUUSUARIO.github.io/radio/musicas/";
+const baseURL = "https://iagoh3041-design.github.io/radio/musicas/";
 
 const musicas = [
     "harry_brega_do_bruxo.mp3",
