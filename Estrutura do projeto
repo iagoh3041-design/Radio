@@ -1,5 +1,9 @@
 radio/
  ├── index.html
- ├── playlist.m3u
+ ├── style.css
+ ├── script.js
  └── musicas/
-      └── harry_brega_do_bruxo.mp3
+      ├── harry_brega_do_bruxo.mp3
+      ├── reggae_funk_remix_2026.mp3
+      └── outra_musica.mp3
+
