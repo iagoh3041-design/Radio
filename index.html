@@ -1,40 +1,20 @@
-body {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
-    padding: 40px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>📻 Rádio Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-.player {
-    background: rgba(0,0,0,0.6);
-    padding: 30px;
-    border-radius: 15px;
-    max-width: 400px;
-    margin: auto;
-    box-shadow: 0 0 20px rgba(0,0,0,0.5);
-}
+<div class="player">
+    <h1>📻 Minha Rádio</h1>
 
-h1 {
-    margin-bottom: 20px;
-}
+    <audio id="audio" controls autoplay></audio>
 
-audio {
-    width: 100%;
-    margin-top: 20px;
-}
+    <ul class="playlist" id="lista"></ul>
+</div>
 
-.playlist {
-    margin-top: 20px;
-    text-align: left;
-}
-
-.playlist li {
-    cursor: pointer;
-    padding: 8px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.playlist li:hover {
-    background: rgba(255,255,255,0.1);
-}
+<script src="script.js"></script>
+</body>
+</html>
